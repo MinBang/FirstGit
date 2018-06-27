@@ -12,6 +12,7 @@ import EC_functions
 
 class EpisodicControl(object):
     def __init__(self, qec_table, ec_discount, num_actions, epsilon_start, epsilon_min, epsilon_decay, exp_pref, rng):
+	
         self.qec_table = qec_table
         self.ec_discount = ec_discount
         self.num_actions = num_actions
